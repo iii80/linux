@@ -65,6 +65,10 @@ bash reinstall.sh centos   7|8|9  (8|9 为 stream 版本)
 ```bash
 bash reinstall.sh dd --img=https://example.com/xxx.xz
 ```
+Debian 12 最小化DD底包
+bash reinstall.sh dd --img=https://github.com/iii80/linux/releases/download/1.0/debian-bookworm.gz
+root密码: abcd@1234
+警告: 仅支持基于DHCP的IPv4地址，静态IPv4和IPv6需要DD完手工配置
 
 ### 用法 3：重启到 Alpine 救援系统 (Live OS)
 
